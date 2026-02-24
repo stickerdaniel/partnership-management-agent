@@ -6,7 +6,7 @@ Dieser Agent unterstützt bei der Akquise neuer Unternehmenspartner: Notion CRM 
 
 Das einrichten dauert ca. 25 Minuten und wird dir sehr viel mehr Zeit in der Zukunft sparen.
 
-## Ein paar Beispiele, was der Agent machen kann:
+## Ein paar Beispiele, was der Agent machen kann
 
 - **E-Mails senden** von deiner `@collective-incubator.de` Adresse
 - **Outreach-E-Mails** nach freigegebenen Templates mit automatischer Personalisierung erstellen
@@ -16,7 +16,8 @@ Das einrichten dauert ca. 25 Minuten und wird dir sehr viel mehr Zeit in der Zuk
 - **Ethik-Check** — Unternehmen gegen die Ausschlusskriterien prüfen
 - **Anhänge** — Offering und Talent Festival Slides aus Google Drive anhängen
 
-> **Hinweis:** Gmail unterstützt keinen zeitgesteuerten Versand über die API. E-Mails werden sofort gesendet. **Beste Sendezeit ist morgens zwischen 7:00 und 9:00 Uhr. (Siehe Notion)** Alternativ kann der Agent E-Mails als Draft erstellen, die du dann manuell über die Gmail-Oberfläche zeitgesteuert versendest.
+> [!IMPORTANT]
+> **Hinweis:** Gmail unterstützt keinen zeitgesteuerten Versand über die API. E-Mails werden sofort gesendet. **Beste Sendezeit ist morgens zwischen 7:00 und 9:00 Uhr. (Siehe Notion)** Der Agent kann E-Mails als Draft erstellen, die du dann manuell über die Gmail-Website zeitgesteuert versendest.
 
 ---
 
@@ -289,36 +290,26 @@ Suche meine letzten 3 E-Mails
 
 Wenn du eine Antwort die deine neusten 3 CI Mails zusammenfasst bekommst, funktioniert alles.
 
+### Werde Power User
+
+Als ich angefangen habe viel mit Agents zu arbeiten war meine Tippgeschwindigkeit was mich abgebremst hat. Dazu ist eher dazu geneigt, dem Agent genauere Anweisungen zu geben, und detailiert zu beschreiben was man möchte, wenn man nicht alles tippen muss.
+
+Hier sind ein paar gute Speech-to-Text-Tools:
+
+- Bezahlt, am besten (kostenlos 2000 Wörter / Woche): [Wispr Flow](https://wisprflow.ai/r?DANIEL92159)
+- Kostenlos für MacOS: [Hex](https://hex.kitlangton.com/)
+
 ---
 
-## Beispiel Anweisungen
+## Wichtige Links
 
-```text
-Schreibe eine Outreach-E-Mail an [Unternehmen]. Ansprechpartner ist [Name], [Position].
-E-Mail: [adresse]. Nutze Template B (Sponsoring-Fokus).
-```
-
-```text
-Sind heute Follow-Ups fällig für Unternehen denen ich als Ansprechpartner zugewiesen bin? Prüfe das CRM.
-```
-
-```text
-Finde den richtigen Ansprechpartner bei [Unternehmen] für eine Partnerschaft.
-Suche auf LinkedIn und im Web nach HR / Talent Acquisition.
-```
-
-```text
-Schaue mal die neuste Email an die ich bekommen habe und aktualisiere den Status in Notion.
-```
-
-```text
-Ist eine Partnerschaft mit [Unternehmen] ethisch vertretbar?
-Schau mal auf LinkedIn / im Web was das Unternehmen macht und prüfe gegen die Ausschlussliste.
-```
-
-```text
-Welche Notion Seiten sind hilfreich als CI Partnership Manager zu kennen?
-```
+| Ressource | Link |
+|-----------|------|
+| Notion — PM Ressort | [Öffnen](https://www.notion.so/cc4f64035fb645918a8326cf3ac2ba68) |
+| Notion — CRM | [Öffnen](https://www.notion.so/30e3a7d9fa538099993fef633bec341e) |
+| Notion — Outreach Templates | [Öffnen](https://www.notion.so/2b73a7d9fa53803bac75d37da62b5746) |
+| Drive — Outreach 2026 | [Öffnen](https://drive.google.com/drive/folders/1tXsDbqqa6mA6YNYWPzZ1OT908foaXLJj) |
+| Drive — Offering | [Öffnen](https://drive.google.com/drive/folders/1_HI9RtcVQ08teAWCSqUp2mfhoRvhkmRn) |
 
 ---
 
@@ -335,18 +326,6 @@ partnership-management-agent/
 ├── CLAUDE.md → AGENTS.md       ← Symlink (für Claude Code kompatibilität)
 └── README.md                   ← Diese Datei
 ```
-
----
-
-## Wichtige Links
-
-| Ressource | Link |
-|-----------|------|
-| Notion — PM Ressort | [Öffnen](https://www.notion.so/cc4f64035fb645918a8326cf3ac2ba68) |
-| Notion — CRM | [Öffnen](https://www.notion.so/30e3a7d9fa538099993fef633bec341e) |
-| Notion — Outreach Templates | [Öffnen](https://www.notion.so/2b73a7d9fa53803bac75d37da62b5746) |
-| Drive — Outreach 2026 | [Öffnen](https://drive.google.com/drive/folders/1tXsDbqqa6mA6YNYWPzZ1OT908foaXLJj) |
-| Drive — Offering | [Öffnen](https://drive.google.com/drive/folders/1_HI9RtcVQ08teAWCSqUp2mfhoRvhkmRn) |
 
 ---
 
