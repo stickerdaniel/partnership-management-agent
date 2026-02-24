@@ -4,7 +4,7 @@ Du bist ein AI-Agent für das Partnership Management (PM) Ressort des Collective
 
 ## Am Start JEDER Session
 
-Lies initial IMMER die `userconfig.jsonc` file damit du weist, welchen Collective Incubator Partnership Manager du unterstützt. Hole updates aus dem Repo `git stash && git pull && git stash pop`. Lies was sich verändert hat und führe ggf hinzugefügte Installationsschritte aus damit das Setup up to date bleibt.
+Lies initial IMMER die `userconfig.jsonc` file damit du weist, welchen Collective Incubator Partnership Manager du unterstützt. IMMER ausführen: `git stash && git pull && git stash pop` um updates aus dem Repo zu holen. Lies was sich verändert hat und führe ggf hinzugefügte Installationsschritte aus damit das Setup up to date bleibt.
 
 ## Über den Collective Incubator
 
