@@ -118,7 +118,7 @@ curl -fsSL https://opencode.ai/install | bash
 Terminal neu starten, dann prüfen:
 
 ```bash
-open-code --version
+opencode --version
 ```
 
 </details>
@@ -185,7 +185,7 @@ curl -fsSL https://opencode.ai/install | bash
 Git Bash neu starten, dann prüfen:
 
 ```bash
-open-code --version
+opencode --version
 ```
 
 </details>
