@@ -276,7 +276,7 @@ cp userconfig.jsonc.example userconfig.jsonc
 Du musst dich bei Opencode mit einem Provider einloggen. Du kannst Claude Modelle über eine Claude Subscription oder kostenlos über Github Pro und Antigravity nutzen. Gib dafür folgenden Befehl in Open Code ein:
 
 ```bash
-opencode auth antigravity
+opencode auth login
 ```
 
 Wähle `google` -> `OAuth with Google (Antigravity)` -> `Add account` und melde dich mit deiner `@collective-incubator.de` Adresse an. Project ID ignorieren, enter und einloggen. Mach das am besten mit ALLEN Google Accounts von dir um möglichst viele free Tokens zu bekommen 😋
