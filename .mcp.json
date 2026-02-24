@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "notion": {
+      "type": "http",
+      "url": "https://mcp.notion.com/mcp"
+    },
+    "google-workspace": {
+      "command": "sh",
+      "args": [
+        "-c",
+        "C=google-credentials.json GOOGLE_OAUTH_CLIENT_ID=$(bun -e \"const c=require('./$C').installed;process.stdout.write(c.client_id)\") GOOGLE_OAUTH_CLIENT_SECRET=$(bun -e \"const c=require('./$C').installed;process.stdout.write(c.client_secret)\") USER_GOOGLE_EMAIL=$GOOGLE_EMAIL OAUTHLIB_INSECURE_TRANSPORT=1 uvx workspace-mcp"
+      ]
+    },
+    "linkedin": {
+      "command": "uvx",
+      "args": ["linkedin-scraper-mcp"]
+    }
+  }
+}
