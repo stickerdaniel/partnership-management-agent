@@ -83,6 +83,7 @@ Fällige Follow-Ups werden automatisch in der **Follow-Up View** (`83e67d6ed8894
 
 - Maximal **2 Follow-Ups** nach dem Erstanschreiben ohne Antwort
 - Danach: Status im CRM auf "Rejection" setzen und erst im nächsten Quartal erneut versuchen
+- NIEMALS Einträge bearbeiten die einen anderen Ansprechpartner zugewiesen haben als der in `userconfig.jsonc` definiert ist!
 
 ---
 
