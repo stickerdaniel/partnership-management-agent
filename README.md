@@ -6,24 +6,43 @@ Dieser Agent unterstützt bei der Akquise neuer Unternehmenspartner: Notion CRM 
 
 Das einrichten dauert ca. 25 Minuten und wird dir sehr viel mehr Zeit in der Zukunft sparen.
 
-## Ein paar Beispiele, was der Agent machen kann
-
-- **E-Mails senden** von deiner `@collective-incubator.de` Adresse
-- **Outreach-E-Mails** nach freigegebenen Templates mit automatischer Personalisierung erstellen
-- **Follow-Ups** basierend auf der CRM-Kadenz vorschlagen und versenden
-- **CRM aktualisieren** — Status und Kontaktdaten in der Notion-Datenbank pflegen
-- **Leads recherchieren** — Ansprechpartner über LinkedIn und Web finden
-- **Ethik-Check** — Unternehmen gegen die Ausschlusskriterien prüfen
-- **Anhänge** — Offering und Talent Festival Slides aus Google Drive anhängen
-
 > [!IMPORTANT]
 > **Hinweis:** Gmail unterstützt keinen zeitgesteuerten Versand über die API. E-Mails werden sofort gesendet. **Beste Sendezeit ist morgens zwischen 7:00 und 9:00 Uhr. (Siehe Notion)** Der Agent kann E-Mails als Draft erstellen, die du dann manuell über die Gmail-Website zeitgesteuert versendest.
+
+## Beispiel Aufgaben für den Agent
+
+```text
+Schreibe eine Outreach-E-Mail an [Unternehmen]. Ansprechpartner ist [Name], [Position].
+E-Mail: [adresse]. Nutze Template B (Sponsoring-Fokus).
+```
+
+```text
+Sind heute Follow-Ups fällig für Unternehen denen ich als Ansprechpartner zugewiesen bin? Prüfe das CRM.
+```
+
+```text
+Finde den richtigen Ansprechpartner bei [Unternehmen] für eine Partnerschaft.
+Suche auf LinkedIn und im Web nach HR / Talent Acquisition.
+```
+
+```text
+Schaue mal die neuste Email an die ich bekommen habe und aktualisiere den Status in Notion.
+```
+
+```text
+Ist eine Partnerschaft mit [Unternehmen] ethisch vertretbar?
+Schau mal auf LinkedIn / im Web was das Unternehmen macht und prüfe gegen die Ausschlussliste.
+```
+
+```text
+Welche Notion Seiten sind hilfreich als CI Partnership Manager zu kennen?
+```
 
 ---
 
 ## Voraussetzungen
 
-Du brauchst folgende Tools. Weiter unten findest du die Installationsanleitungen für macOS und Windows.
+Du brauchst folgende Tools. Weiter unten findest sind die Schritt für Schritt Installationsanleitungen für macOS und Windows.
 
 | Tool | Zweck | Website |
 |------|-------|---------|
