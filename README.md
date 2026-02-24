@@ -193,7 +193,7 @@ open-code --version
 ### 2. Repository klonen
 
 ```bash
-git clone <REPO-URL>
+git clone https://github.com/stickerdaniel/partnership-management-agent.git
 cd partnership-management-agent
 ```
 
