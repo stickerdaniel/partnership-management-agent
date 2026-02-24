@@ -336,14 +336,15 @@ Hier sind ein paar gute Speech-to-Text-Tools:
 
 ```text
 partnership-management-agent/
-├── google-credentials.json     ← Deine OAuth-Zugangsdaten (gitignored)
-├── .env                        ← Deine E-Mail-Adresse (gitignored)
-├── .env.example                ← Vorlage für .env
-├── .gitignore                  ← Ignoriere credentials und .env
-├── opencode.jsonc/.mcp.json    ← MCP-Server Konfiguration
-├── AGENTS.md                   ← Agent-Anweisungen (Outreach-Regeln, Templates, CRM)
-├── CLAUDE.md → AGENTS.md       ← Symlink (für Claude Code kompatibilität)
-└── README.md                   ← Diese Datei
+├── google-credentials.json      ← Deine OAuth-Zugangsdaten (gitignored)
+├── userconfig.jsonc             ← Deine persönliche Konfiguration (gitignored)
+├── userconfig.jsonc.example     ← Vorlage für userconfig.jsonc
+├── .gitignore
+├── .mcp.json                    ← MCP-Server Konfiguration (Claude Code)
+├── opencode.jsonc               ← MCP + Modell Konfiguration (Open Code)
+├── AGENTS.md                    ← Agent-Anweisungen (Outreach-Regeln, Templates, CRM)
+├── CLAUDE.md → AGENTS.md        ← Symlink (Claude Code Kompatibilität)
+└── README.md                    ← Diese Datei
 ```
 
 ---
