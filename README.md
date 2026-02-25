@@ -126,14 +126,19 @@ opencode --version
 <details>
 <summary><strong>Windows</strong></summary>
 
-Installiere zuerst Git (siehe unten), dann verwende **Git Bash** für alle weiteren Befehle — nicht cmd oder PowerShell.
+Wir verwenden **Git Bash** für alle Befehle — nicht cmd oder PowerShell.
+
+> **Tipp:** In Git Bash funktioniert `Strg+V` zum Einfügen **nicht**. Stattdessen: **Rechtsklick → Paste**.
 
 #### Git
 
+Prüfe zuerst ob Git bereits installiert ist: Drücke `Windows-Taste`, tippe `Git Bash`, und öffne es. Falls es nicht gefunden wird, installiere Git:
+
 1. Lade Git herunter: [git-scm.com/download/win](https://git-scm.com/download/win)
 2. Führe den Installer aus — alle Standardeinstellungen beibehalten
-3. Öffne **Git Bash** (wird mit Git installiert)
-4. Prüfe:
+3. Öffne **Git Bash:** `Windows-Taste` → `Git Bash` eintippen → Enter
+
+Prüfe die Installation:
 
 ```bash
 git --version
@@ -147,13 +152,18 @@ In Git Bash:
 curl -fsSL https://bun.sh/install | bash
 ```
 
-Git Bash neu starten, dann prüfen:
+Danach Bun zum PATH hinzufügen — kopiere diese beiden Zeilen und füge sie in Git Bash ein:
+
+```bash
+echo 'export BUN_INSTALL="$HOME/.bun"' >> ~/.bashrc
+echo 'export PATH="$BUN_INSTALL/bin:$PATH"' >> ~/.bashrc
+```
+
+Öffne ein neues Git Bash Fenster, dann prüfen:
 
 ```bash
 bun --version
 ```
-
-> Falls `curl` nicht funktioniert: Lade Bun manuell von [bun.sh](https://bun.sh/) herunter und folge den Windows-Anweisungen.
 
 #### uv
 
@@ -163,7 +173,13 @@ In Git Bash:
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-Git Bash neu starten, dann prüfen:
+Danach uv zum PATH hinzufügen:
+
+```bash
+echo 'source $HOME/.local/bin/env' >> ~/.bashrc
+```
+
+Öffne ein neues Git Bash Fenster, dann prüfen:
 
 ```bash
 uv --version
@@ -182,7 +198,7 @@ uvx linkedin-scraper-mcp --login
 curl -fsSL https://opencode.ai/install | bash
 ```
 
-Git Bash neu starten, dann prüfen:
+Öffne ein neues Git Bash Fenster, dann prüfen:
 
 ```bash
 opencode --version

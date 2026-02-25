@@ -128,7 +128,7 @@ Lead → Outreach → Response → Negotiation → Closed / Rejection
 
 | Seite | ID | Beschreibung |
 |-------|------|-------------|
-| Schreibweisen | `` | IMMER anschauen, bevor neue Texte verfasst werden |
+| Schreibweisen | `1b4817f77c7f413294584ff67ed73cc5` | IMMER anschauen, bevor neue Texte verfasst werden |
 | PM Ressort | `cc4f64035fb645918a8326cf3ac2ba68` | Hauptarbeitsseite |
 | PM Wiki | `644f993639a64cf097f7f2ebf815b35a` | Prozesse & Richtlinien |
 | CRM 2026 | `30e3a7d9fa538099993fef633bec341e` | Leads, Kanban, Follow-Ups |
