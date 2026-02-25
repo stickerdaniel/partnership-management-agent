@@ -103,6 +103,12 @@ uv --version
 uvx --version
 ```
 
+#### Playwright (Web-Recherche)
+
+```bash
+bunx playwright install chromium
+```
+
 #### LinkedIn MCP
 
 ```bash
@@ -184,6 +190,12 @@ echo 'source $HOME/.local/bin/env' >> ~/.bashrc
 ```bash
 uv --version
 uvx --version
+```
+
+#### Playwright (Web-Recherche)
+
+```bash
+bunx playwright install chromium
 ```
 
 #### LinkedIn MCP
