@@ -1,6 +1,6 @@
 {
 	"$schema": "https://opencode.ai/config.json",
-	"default_agent": "plan",
+	"default_agent": "code",
 	"model": "anthropic/claude-opus-4-6",
 	// "model": "google/antigravity-claude-opus-4-6",
 	// "model": "github-copilot/claude-opus-4-6",

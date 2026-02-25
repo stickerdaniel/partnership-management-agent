@@ -318,7 +318,13 @@ Opencode starten mit:
 opencode
 ```
 
-> **Tipp:** Mit `Strg+C` (macOS: `Ctrl+C`) kannst du den Agent jederzeit beenden.
+Oder als Web-Oberfläche im Browser (einfacher zu bedienen):
+
+```bash
+opencode web
+```
+
+> **Tipp:** Mit `Strg+C` (macOS: `Ctrl+C`) kannst du den Agent im Terminal jederzeit beenden.
 
 mit `/models` kannst du das KI modell auswählen. Ich würde nur Claude Opus 4.6 oder Sonnet 4.6 verwenden. Opus ist schlauer, aber verbraucht die Limits schneller.
 
