@@ -11,7 +11,7 @@
 	"mcp": {
     "notion": {
       "type": "local",
-      "command": ["bunx", "mcp-remote", "https://mcp.notion.com/mcp"],
+      "command": ["bun", "x", "mcp-remote", "https://mcp.notion.com/mcp"],
       "enabled": true
     },
     "google-workspace": {

@@ -134,48 +134,40 @@ opencode --version
 <details>
 <summary><strong>Windows</strong></summary>
 
-Wir verwenden **Git Bash** für alle Befehle — nicht cmd oder PowerShell.
+Alle Befehle werden in **Git Bash** eingegeben — nicht in cmd oder PowerShell.
+
+**So öffnest du Git Bash:** `Windows-Taste` drücken → `Git Bash` eintippen → Enter.
 
 > **Tipp:** In Git Bash funktioniert `Strg+V` zum Einfügen **nicht**. Stattdessen: **Rechtsklick → Paste**.
 
 #### Git
 
-Prüfe zuerst ob Git bereits installiert ist: Drücke `Windows-Taste`, tippe `Git Bash`, und öffne es. Falls es nicht gefunden wird, installiere Git:
+Prüfe ob Git bereits installiert ist: `Windows-Taste` drücken, `Git Bash` eintippen. Wenn es in der Suche erscheint, ist Git installiert — öffne es. Falls nicht:
 
 1. Lade Git herunter: [git-scm.com/download/win](https://git-scm.com/download/win)
 2. Führe den Installer aus — alle Standardeinstellungen beibehalten
-3. Öffne **Git Bash:** `Windows-Taste` → `Git Bash` eintippen → Enter
-
-Prüfe die Installation:
-
-```bash
-git --version
-```
+3. Öffne **Git Bash** (`Windows-Taste` → `Git Bash` → Enter)
 
 #### Bun
-
-In Git Bash:
 
 ```bash
 curl -fsSL https://bun.sh/install | bash
 ```
 
-Danach Bun zum PATH hinzufügen — kopiere diese beiden Zeilen und füge sie in Git Bash ein:
+Danach Bun zum PATH hinzufügen — kopiere diese beiden Zeilen und füge sie in Git Bash ein (Rechtsklick → Paste):
 
 ```bash
 echo 'export BUN_INSTALL="$HOME/.bun"' >> ~/.bash_profile
 echo 'export PATH="$BUN_INSTALL/bin:$PATH"' >> ~/.bash_profile
 ```
 
-Öffne ein neues Git Bash Fenster, dann prüfen:
+Neues Git Bash Fenster öffnen (`Windows-Taste` → `Git Bash` → Enter), dann prüfen:
 
 ```bash
 bun --version
 ```
 
 #### uv
-
-In Git Bash:
 
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
@@ -187,7 +179,7 @@ Danach uv zum PATH hinzufügen:
 echo 'source $HOME/.local/bin/env' >> ~/.bash_profile
 ```
 
-Öffne ein neues Git Bash Fenster, dann prüfen:
+Neues Git Bash Fenster öffnen (`Windows-Taste` → `Git Bash` → Enter), dann prüfen:
 
 ```bash
 uv --version
@@ -220,7 +212,7 @@ Danach Open Code zum PATH hinzufügen:
 echo 'export PATH="$HOME/.opencode/bin:$PATH"' >> ~/.bash_profile
 ```
 
-Öffne ein neues Git Bash Fenster, dann prüfen:
+Neues Git Bash Fenster öffnen (`Windows-Taste` → `Git Bash` → Enter), dann prüfen:
 
 ```bash
 opencode --version
