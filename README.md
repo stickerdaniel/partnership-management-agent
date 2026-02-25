@@ -155,8 +155,8 @@ curl -fsSL https://bun.sh/install | bash
 Danach Bun zum PATH hinzufügen — kopiere diese beiden Zeilen und füge sie in Git Bash ein:
 
 ```bash
-echo 'export BUN_INSTALL="$HOME/.bun"' >> ~/.bashrc
-echo 'export PATH="$BUN_INSTALL/bin:$PATH"' >> ~/.bashrc
+echo 'export BUN_INSTALL="$HOME/.bun"' >> ~/.bash_profile
+echo 'export PATH="$BUN_INSTALL/bin:$PATH"' >> ~/.bash_profile
 ```
 
 Öffne ein neues Git Bash Fenster, dann prüfen:
