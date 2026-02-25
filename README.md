@@ -103,10 +103,10 @@ uv --version
 uvx --version
 ```
 
-#### Playwright (Web-Recherche)
+#### Playwright (Browser für LinkedIn MCP)
 
 ```bash
-bunx playwright install chromium
+bun x playwright install chromium
 ```
 
 #### LinkedIn MCP
@@ -182,7 +182,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 Danach uv zum PATH hinzufügen:
 
 ```bash
-echo 'source $HOME/.local/bin/env' >> ~/.bashrc
+echo 'source $HOME/.local/bin/env' >> ~/.bash_profile
 ```
 
 Öffne ein neues Git Bash Fenster, dann prüfen:
@@ -192,10 +192,10 @@ uv --version
 uvx --version
 ```
 
-#### Playwright (Web-Recherche)
+#### Playwright (Browser für LinkedIn MCP)
 
 ```bash
-bunx playwright install chromium
+bun x playwright install chromium
 ```
 
 #### LinkedIn MCP
