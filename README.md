@@ -115,6 +115,8 @@ bun x playwright install chromium
 uvx linkedin-scraper-mcp --login
 ```
 
+Es dauert einen Moment bis sich das Browser-Fenster öffnet. Melde dich dort mit deinem LinkedIn-Account an.
+
 #### Open Code
 
 ```bash
@@ -204,10 +206,18 @@ bun x playwright install chromium
 uvx linkedin-scraper-mcp --login
 ```
 
+Es dauert einen Moment bis sich das Browser-Fenster öffnet. Melde dich dort mit deinem LinkedIn-Account an.
+
 #### Open Code
 
 ```bash
 curl -fsSL https://opencode.ai/install | bash
+```
+
+Danach Open Code zum PATH hinzufügen:
+
+```bash
+echo 'export PATH="$HOME/.opencode/bin:$PATH"' >> ~/.bash_profile
 ```
 
 Öffne ein neues Git Bash Fenster, dann prüfen:
