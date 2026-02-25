@@ -138,7 +138,7 @@ Alle Befehle werden in **Git Bash** eingegeben — nicht in cmd oder PowerShell.
 
 **So öffnest du Git Bash:** `Windows-Taste` drücken → `Git Bash` eintippen → Enter.
 
-> **Tipp:** In Git Bash funktioniert `Strg+V` zum Einfügen **nicht**. Stattdessen: **Rechtsklick → Paste**.
+> **⚠️ Wichtig:** In Git Bash funktionieren `Strg+C` und `Strg+V` **nicht** wie gewohnt. `Strg+C` beendet den laufenden Prozess, `Strg+V` fügt nichts ein. Zum **Kopieren und Einfügen** immer **Rechtsklick → Copy / Paste** verwenden.
 
 #### Git
 
