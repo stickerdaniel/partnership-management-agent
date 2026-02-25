@@ -300,13 +300,7 @@ Du brauchst OAuth-Zugangsdaten um E-Mails über die Gmail API zu senden.
 
 ### 4. Dich als CI Partnership Manager konfigurieren
 
-Zurück im Terminal (du solltest noch im `partnership-management-agent` Ordner sein):
-
-```bash
-cp userconfig.jsonc.example userconfig.jsonc
-```
-
-Öffne die `userconfig.jsonc` Datei im Projektordner mit einem Texteditor und passe die Felder an.
+Schreibe dem Agent eine beliebige Nachricht (z.B. „Hallo"). Beim ersten Mal fragt er dich automatisch nach deinem Namen, deiner Rolle, E-Mail, Telefonnummer und Gmail-Signatur. Du musst nichts manuell konfigurieren — beantworte einfach seine Fragen.
 
 ### 5. Open Code
 
@@ -323,6 +317,8 @@ Opencode starten mit:
 ```bash
 opencode
 ```
+
+> **Tipp:** Mit `Strg+C` (macOS: `Ctrl+C`) kannst du den Agent jederzeit beenden.
 
 mit `/models` kannst du das KI modell auswählen. Ich würde nur Claude Opus 4.6 oder Sonnet 4.6 verwenden. Opus ist schlauer, aber verbraucht die Limits schneller.
 

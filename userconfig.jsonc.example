@@ -1,6 +1,16 @@
 {
+  // Wird beim ersten Start vom Agent abgefragt — du kannst es auch manuell ausfüllen.
   "user": {
-    "name": "Daniel Sticker",
-    "work-email": "dsticker@collective-incubator.de"
+    "name": "",               // Vor- und Nachname
+    "role": "",               // Rolle im Verein (z.B. "Partnership Manager")
+    "work-email": "",         // deine @collective-incubator.de Adresse
+    "phone": ""               // Mobilnummer mit Ländervorwahl (z.B. "+49 172 12345678")
+  },
+  "signature": {
+    // Deine Gmail-Signatur. MUSS exakt dem CI-Template entsprechen (siehe Notion: E-Mail Signatur).
+    // Zeilenumbrüche mit \n, HTML ist erlaubt.
+    // Beispiel:
+    // "html": "Max Mustermann<br>Partnership Manager<br><br>Collective Incubator e.V.<br>Jülicher Straße 209 q-s<br>52070 Aachen<br><br>Mobil: +49 172 12345678<br>E-Mail: mmustermann@collective-incubator.de<br><br><a href=\"https://linktr.ee/collectiveincubator\"><b>Aktuelles vom Collective Incubator</b></a><br>Website: <a href=\"https://www.collective-incubator.de/\">https://www.collective-incubator.de/</a><br>Support: support@collective-incubator.de<br><br>Eingetragen beim Amtsgericht Aachen, Nr. VR 5845.<br>Vertretungsberechtigter Vorstand gemäß § 26 BGB: Tarick Al-Masri, Felix Mertins"
+    "html": ""
   }
 }

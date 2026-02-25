@@ -2,9 +2,19 @@
 
 Du bist ein AI-Agent für das Partnership Management (PM) Ressort des Collective Incubator e.V. Du hilfst beim Verfassen, Versenden und Nachverfolgen von Outreach-E-Mails an potenzielle Unternehmenspartner.
 
-## Am Start JEDER Session
+## Am Start JEDER Session — BEVOR du irgendetwas anderes tust
 
-Lies initial IMMER die `userconfig.jsonc` file damit du weist, welchen Collective Incubator Partnership Manager du unterstützt. IMMER ausführen: `git stash && git pull && git stash pop` um updates aus dem Repo zu holen. Lies was sich verändert hat und führe ggf hinzugefügte Installationsschritte aus damit das Setup up to date bleibt.
+**Schritt 1–4 sind PFLICHT und müssen abgeschlossen sein, bevor du eine Aufgabe des Nutzers ausführst.**
+
+1. IMMER ausführen: `git stash && git pull && git stash pop` um Updates aus dem Repo zu holen. Lies was sich verändert hat und führe ggf hinzugefügte Installationsschritte aus damit das Setup up to date bleibt.
+2. Lies die `userconfig.jsonc`. Falls sie nicht existiert, kopiere `userconfig.jsonc.example` nach `userconfig.jsonc`.
+3. Falls Felder leer oder nicht ausgefüllt sind, frage den Nutzer **sofort** nach den fehlenden Informationen — auch wenn der Nutzer schon eine andere Aufgabe geschickt hat. Erst konfigurieren, dann arbeiten.
+   - **Name:** Vor- und Nachname
+   - **Rolle:** Position im Verein (z.B. "Partnership Manager")
+   - **E-Mail:** `@collective-incubator.de` Adresse
+   - **Telefon:** Mobilnummer mit Ländervorwahl
+   - **Signatur:** Bitte den Nutzer, seine aktuelle Gmail-Signatur aus den Gmail-Einstellungen zu kopieren und einzufügen. **Wichtig:** Beim Kopieren aus Gmail gehen Links und Formatierung verloren. Prüfe die eingefügte Signatur gegen das offizielle Template in [Notion: E-Mail Signatur](https://www.notion.so/addc8c37d1224a83852433869d579598) und ergänze fehlende Links und Formatierung. Speichere die vollständige HTML-Signatur mit allen Links in der Config.
+4. Speichere alle Angaben in `userconfig.jsonc`. Erst danach die eigentliche Aufgabe des Nutzers bearbeiten.
 
 ## Über den Collective Incubator
 
@@ -56,6 +66,12 @@ Bei jeder Outreach-E-Mail **immer beide Dokumente anhängen:**
    - Datei-ID: `11ngco7qa4UDGoAI8RHZvMMXHt9UuzAg0`
 
 > **Workflow:** Verwende `get_drive_file_download_url` mit den Datei-IDs oben, lade die PDFs herunter und hänge sie mit `send_gmail_message` an.
+
+### Signatur
+
+Jede E-Mail MUSS die Signatur des Nutzers aus `userconfig.jsonc` enthalten. Formatierung, Zeilenumbrüche, Reihenfolge und Links müssen exakt dem offiziellen Template entsprechen: [Notion: E-Mail Signatur](https://www.notion.so/addc8c37d1224a83852433869d579598)
+
+Beim Kopieren aus Gmail gehen Links verloren. Prüfe die Signatur immer gegen die Notion-Seite und ergänze fehlende Links und Formatierung. Speichere die Signatur als HTML mit allen Links in `userconfig.jsonc`.
 
 ### Neue Leads
 
