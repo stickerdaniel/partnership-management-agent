@@ -230,6 +230,8 @@ opencode --version
 
 ### 2. Repository klonen
 
+Wechsle zuerst in den Ordner, in dem das Projekt gespeichert werden soll (z.B. Dokumente). **Windows:** Tippe `cd ` (mit Leerzeichen), ziehe den gewünschten Ordner aus dem Explorer ins Git Bash Fenster und drücke Enter.
+
 ```bash
 git clone https://github.com/stickerdaniel/partnership-management-agent.git
 cd partnership-management-agent
@@ -287,15 +289,18 @@ Du brauchst OAuth-Zugangsdaten um E-Mails über die Gmail API zu senden.
 <details>
 <summary><strong>3d. OAuth Client ID erstellen</strong></summary>
 
-1. Gehe zu [APIs & Services → Credentials](https://console.cloud.google.com/apis/credentials)
-2. Klicke **+ Anmeldedaten erstellen → OAuth-Client-ID**
-3. Anwendungstyp: **Desktopanwendung**
-4. Name: `CI Partnership Agent`
-5. Klicke **Erstellen**
-6. Klicke **JSON herunterladen**
-7. Finde die heruntergeladene Datei (heißt `client_secret_...json`) im Downloads-Ordner
-8. Benenne sie um in **`google-credentials.json`**
-9. Verschiebe sie in den `partnership-management-agent` Projektordner (dort wo auch die `README.md` liegt)
+1. Gehe zu [APIs & Services → OAuth Consent Screen](https://console.cloud.google.com/apis/credentials/consent) und klicke rechts auf **+ Create OAuth Client ID**
+2. Anwendungstyp: **Desktopanwendung**
+3. Name: `CI Partnership Agent`
+4. Klicke **Erstellen**
+5. Klicke **JSON herunterladen**. Falls der Download nicht funktioniert (Google ist buggy): Klicke auf das **Stift-Icon** (✏️) neben dem Eintrag unter „OAuth 2.0-Client-IDs" und dann auf den kleinen **Download-Button** (⬇️)
+
+   ![OAuth Client Liste](docs/oauth-client-list.jpeg)
+   ![OAuth Client Download](docs/oauth-client-download.jpeg)
+
+6. Finde die heruntergeladene Datei (heißt `client_secret_...json`) im Downloads-Ordner
+7. Benenne sie um in **`google-credentials.json`**
+8. Verschiebe sie in den `partnership-management-agent` Projektordner (dort wo auch die `README.md` liegt)
 
 > **Wichtig:** Diese Datei enthält deine Zugangsdaten. Sie ist per `.gitignore` vom Repository ausgeschlossen und darf **niemals** committed (hochgeladen) werden.
 
@@ -303,11 +308,13 @@ Du brauchst OAuth-Zugangsdaten um E-Mails über die Gmail API zu senden.
 
 ### 4. Dich als CI Partnership Manager konfigurieren
 
+Zurück im Terminal (du solltest noch im `partnership-management-agent` Ordner sein):
+
 ```bash
 cp userconfig.jsonc.example userconfig.jsonc
 ```
 
-Öffne die `userconfig.jsonc` file und passe die Felder an.
+Öffne die `userconfig.jsonc` Datei im Projektordner mit einem Texteditor und passe die Felder an.
 
 ### 5. Open Code
 
