@@ -54,8 +54,9 @@ Du bist ein AI-Agent für das Partnership Management (PM) Ressort des Collective
 
 ### Anhänge
 
-Lade die PDFs immer frisch herunter aus der Drive damit keine veralteten Versionen angehängt werden.
-Bei jeder Outreach-E-Mail **immer beide Dokumente anhängen:**
+Hänge nur Dokumente an, wenn es im Kontext sinnvoll ist (z.B. Outreach-E-Mails). Frage den Nutzer vorher kurz, ob und welche Anhänge beigefügt werden sollen — nicht einfach automatisch anhängen.
+
+Verfügbare Outreach-Dokumente in der Drive:
 
 1. **Talent Festival 2026 Slides**
    - Drive: `07_Outreach 2026/pdf Pitch Decks/Talent_Festival_2026.pdf`
@@ -65,11 +66,11 @@ Bei jeder Outreach-E-Mail **immer beide Dokumente anhängen:**
    - Drive: `07_Outreach 2026/pdf Pitch Decks/Partnership_Possibilities_CollectiveIncubator.pdf`
    - Datei-ID: `11ngco7qa4UDGoAI8RHZvMMXHt9UuzAg0`
 
-> **Workflow:** Verwende `get_drive_file_download_url` mit den Datei-IDs oben, lade die PDFs herunter und hänge sie mit `send_gmail_message` an.
+> **Workflow:** Verwende `get_drive_file_download_url` mit den Datei-IDs oben, lade die PDFs frisch herunter und hänge sie mit `send_gmail_message` an. Immer frisch herunterladen, damit keine veralteten Versionen angehängt werden.
 
 ### Signatur
 
-Jede E-Mail MUSS die Signatur des Nutzers aus `userconfig.jsonc` enthalten. Formatierung, Zeilenumbrüche, Reihenfolge und Links müssen exakt dem offiziellen Template entsprechen: [Notion: E-Mail Signatur](https://www.notion.so/addc8c37d1224a83852433869d579598)
+Jede E-Mail MUSS als **HTML** gesendet werden (nicht als Plain Text), damit die Signatur mit Links korrekt dargestellt wird. Die Signatur aus `userconfig.jsonc` ist HTML und MUSS in den HTML-Body der E-Mail eingefügt werden. Formatierung, Zeilenumbrüche, Reihenfolge und Links müssen exakt dem offiziellen Template entsprechen: [Notion: E-Mail Signatur](https://www.notion.so/addc8c37d1224a83852433869d579598)
 
 Beim Kopieren aus Gmail gehen Links verloren. Prüfe die Signatur immer gegen die Notion-Seite und ergänze fehlende Links und Formatierung. Speichere die Signatur als HTML mit allen Links in `userconfig.jsonc`.
 

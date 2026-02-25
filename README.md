@@ -326,7 +326,19 @@ opencode web
 
 > **Tipp:** Mit `Strg+C` (macOS: `Ctrl+C`) kannst du den Agent im Terminal jederzeit beenden.
 
-mit `/models` kannst du das KI modell auswählen. Ich würde nur Claude Opus 4.6 oder Sonnet 4.6 verwenden. Opus ist schlauer, aber verbraucht die Limits schneller.
+#### Modellauswahl
+
+Mit `/models` kannst du das KI-Modell auswählen. Empfohlene Modelle:
+- **Claude Sonnet 4.6** — schnell und gut für die meisten Aufgaben
+- **Claude Opus 4.6** — schlauer, aber verbraucht Limits schneller. Lohnt sich für komplexere Aufgaben.
+- Falls du lieber ChatGPT-Modelle nutzen willst: **Codex 5.1 Mini** verwenden. Codex 5.2 denkt extrem lange nach und ist für diese Aufgaben überdimensioniert.
+
+#### Nützliche Shortcuts
+
+- **Tab** — wechselt zwischen Plan-Modus und Code-Modus. Der Plan-Modus eignet sich gut, um bei komplexeren Aufgaben erstmal eine Abfolge von Schritten zu definieren, bevor der Agent loslegt.
+- **Strg+T** (macOS: `Ctrl+T`) — passt das Reasoning-Level des Modells an. Mehr Reasoning = bessere Ergebnisse bei komplexen Aufgaben, aber langsamer. Weniger Reasoning = schnellere Antworten bei einfachen Aufgaben.
+
+#### Mehr Tokens bekommen
 
 Bei Gelegenheit kannst du deine Studienbescheinigung [hier einreichen](https://github.com/education) um Github Pro zu bekommen. Verbinde Github als Provider in Opencode mit `/connect` um mehr Zugriff auf die besten Modelle zu bekommen. Es gibt ein monatliches Limit.
 
