@@ -329,9 +329,10 @@ opencode web
 #### Modellauswahl
 
 Mit `/models` kannst du das KI-Modell auswählen. Empfohlene Modelle:
+
 - **Claude Sonnet 4.6** — schnell und gut für die meisten Aufgaben
 - **Claude Opus 4.6** — schlauer, aber verbraucht Limits schneller. Lohnt sich für komplexere Aufgaben.
-- Falls du lieber ChatGPT-Modelle nutzen willst: **Codex 5.1 Mini** verwenden. Codex 5.2 denkt extrem lange nach und ist für diese Aufgaben überdimensioniert.
+- Falls du lieber ChatGPT-Modelle nutzen willst, empfehle ich aber nicht weil die sehr langsam sind: **GPT 5.2** verwenden. Codex modelle können keine Bilder lesen und sind speziell fürs Programmieren.
 
 #### Nützliche Shortcuts
 
