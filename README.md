@@ -304,13 +304,15 @@ Schreibe dem Agent eine beliebige Nachricht (z.B. „Hallo"). Beim ersten Mal fr
 
 ### 5. Open Code
 
-Du musst dich bei Opencode mit einem Provider einloggen. Du kannst Claude Modelle über eine Claude Subscription oder kostenlos über Github Pro und Antigravity nutzen. Gib dafür folgenden Befehl in Open Code ein:
+Du musst dich bei Opencode mit einem Provider einloggen.Claude-Modelle kannst du über eine Claude Subscription oder kostenlos über Github Pro und Antigravity nutzen. Wenn du GPT-Modelle nutzen willst, verbindest du am einfachsten OpenAI. Gib dafür folgenden Befehl in Open Code ein:
 
 ```bash
 opencode auth login
 ```
 
-Wähle `google` -> `OAuth with Google (Antigravity)` -> `Add account` und melde dich mit deiner `@collective-incubator.de` Adresse an. Project ID ignorieren, enter und einloggen. Mach das am besten mit ALLEN Google Accounts von dir um möglichst viele free Tokens zu bekommen 😋
+Wähle `google` -> `OAuth with Google (Antigravity)` -> `Add account`
+- Melde dich mit deiner `@collective-incubator.de` Adresse an
+- Project ID ignorieren, Enter drücken und einloggen
 
 Opencode starten mit:
 
@@ -332,7 +334,7 @@ Mit `/models` kannst du das KI-Modell auswählen. Empfohlene Modelle:
 
 - **Claude Sonnet 4.6** — schnell und gut für die meisten Aufgaben
 - **Claude Opus 4.6** — schlauer, aber verbraucht Limits schneller. Lohnt sich für komplexere Aufgaben.
-- Falls du lieber ChatGPT-Modelle nutzen willst, empfehle ich aber nicht weil die sehr langsam sind: **GPT 5.2** verwenden. Codex modelle können keine Bilder lesen und sind speziell fürs Programmieren.
+- Falls du lieber ChatGPT-Modelle nutzen willst: **GPT 5.4** verwenden. Manche Codex modelle können keine Bilder lesen und sind speziell fürs Programmieren.
 
 #### Nützliche Shortcuts
 
