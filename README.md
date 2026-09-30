@@ -397,7 +397,6 @@ partnership-management-agent/
 ├── .mcp.json                    ← MCP-Server Konfiguration (Claude Code)
 ├── opencode.jsonc               ← MCP + Modell Konfiguration (Open Code)
 ├── AGENTS.md                    ← Agent-Anweisungen (Outreach-Regeln, Templates, CRM)
-├── CLAUDE.md → AGENTS.md        ← Symlink (Claude Code Kompatibilität)
 └── README.md                    ← Diese Datei
 ```
 
