@@ -167,3 +167,7 @@ Lead → Outreach → Response → Negotiation → Closed / Rejection
 | Offering | `1_HI9RtcVQ08teAWCSqUp2mfhoRvhkmRn` | Aktuelle und archivierte Offerings |
 | Talent Festivals | `1zR-fx2al4Wajh7o32iRZ_LYWKFurGYXa` | TF-Slides (2023, 2025, 2026) |
 | Sponsoring | `1pel63L27K_-zea0TpsM8J2FrKDvqeNKQ` | Partner Wall, Aufgaben |
+
+## Pull requests
+
+- End every PR body with `Generated with <model> for <job> in <tool> via <host>.` CI requires that line, including the period. For example, `Generated with Claude Opus 5.5 for implementation in Claude Code via T3 Code.` For several models, write `Generated with <model 1> for <job 1> and <model 2> for <job 2> in <tool> via <host>.` Every model needs a job. Commas or `/` list several jobs for one model.
